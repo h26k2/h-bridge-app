@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>H Bridge Operations</title>
+    <link rel="stylesheet" href="src/index.css" type="text/css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="source"></div>
+    <div class="path-left"></div>
+
+    <div class="buttons-container">
+        <button data-state="off" data-switch="1">turn&nbsp;<span> on</span>&nbsp;S1</button>
+        <button data-state="off" data-switch="2" >turn&nbsp;<span> On </span>&nbsp;S2</button>
+        <button data-state="off" data-switch="3" >turn&nbsp;<span> On </span>&nbsp;S3</button>
+        <button data-state="off" data-switch="4">turn&nbsp;<span> On </span>&nbsp;S4</button>
+    </div>
+
+    <div class="bridge-container">
+        
+        <div class="motor"></div>
+
+        <div class="horizontal-path"></div>
+        
+        <div class="path-top"></div>
+        <div class="path-middle"></div>
+        <div class="path-bottom"></div>
+
+        <div class="switch switch-1"></div>
+        <span id="s1">S1</span>
+
+        <div class="switch switch-2"></div>
+        <span id="s2">S2</span>
+
+        <div class="switch switch-3"></div>
+        <span id="s3">S3</span>
+
+        <div class="switch switch-4"></div>
+        <span id="s4">S4</span>
+
+    </div>
+</div>
+
+<h2>Circuit working of H - bridge</h2>
+
+
+</body>
+<script src="src/index.js"></script>
+
+
+</html>
